@@ -1,3 +1,2 @@
 # ionic
 ionic study
-aaa
