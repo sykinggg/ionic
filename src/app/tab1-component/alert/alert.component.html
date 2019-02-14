@@ -1,3 +1,13 @@
-<p>
-    alert works!
-</p>
+<ion-card>
+    <ion-card-header>
+        <ion-card-title>弹窗 Alert</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <ion-button (click)="presentAlert()">presentAlert</ion-button>
+        <ion-button (click)="presentAlertMultipleButtons()">presentAlertMultipleButtons</ion-button>
+        <ion-button (click)="presentAlertConfirm()">presentAlertConfirm</ion-button>
+        <ion-button (click)="presentAlertPrompt()">presentAlertPrompt</ion-button>
+        <ion-button (click)="presentAlertRadio()">presentAlertRadio</ion-button>
+        <ion-button (click)="presentAlertCheckbox()">presentAlertCheckbox</ion-button>
+    </ion-card-content>
+</ion-card>
