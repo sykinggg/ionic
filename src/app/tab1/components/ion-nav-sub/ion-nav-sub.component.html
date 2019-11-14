@@ -1,0 +1,12 @@
+<ion-header translucent *ngIf="tech">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" (click)="closeItem()"></ion-back-button>
+        </ion-buttons>
+        <ion-title>{{tech.title}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content fullscreen class="ion-padding" *ngIf="tech">
+    <ion-icon name="logo-{{tech.icon}}" [ngStyle]="{'color': tech.color}" size="large"></ion-icon>
+    <p>{{tech.description}}</p>
+</ion-content>

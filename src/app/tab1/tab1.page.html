@@ -1,13 +1,21 @@
-<ion-header>
+<!-- <ion-header>
     <ion-toolbar>
         <ion-title>
-            Tab One
+            <ion-button color="primary" (click)="choiceComponents()">choice components</ion-button>
         </ion-title>
     </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content>
-    <ion-card class="welcome-card">
+    <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+        <ion-fab-button (click)="choiceComponents()">
+            <ion-icon name="add"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+    <div *ngFor="let item of asyncComponentArr">
+        <app-dynamic-component-container [asyncComponent]="item"></app-dynamic-component-container>
+    </div>
+    <!-- <ion-card class="welcome-card">
         <img src="/assets/shapes.svg" alt="" />
         <ion-card-header>
             <ion-card-subtitle>Get Started</ion-card-subtitle>
@@ -38,5 +46,5 @@
             <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
             <ion-label>Theme Your App</ion-label>
         </ion-item>
-    </ion-list>
+    </ion-list> -->
 </ion-content>
