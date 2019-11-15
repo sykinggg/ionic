@@ -1,22 +1,22 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IonLoadingComponent } from './ion-loading.component';
+import { IonSkeletonTextComponent } from './ion-skeleton-text.component';
 
-describe('IonLoadingComponent', () => {
-    let component: IonLoadingComponent;
-    let fixture: ComponentFixture<IonLoadingComponent>;
+describe('IonSkeletonTextComponent', () => {
+    let component: IonSkeletonTextComponent;
+    let fixture: ComponentFixture<IonSkeletonTextComponent>;
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [IonLoadingComponent],
+            declarations: [IonSkeletonTextComponent],
             schemas: [CUSTOM_ELEMENTS_SCHEMA],
         })
             .compileComponents();
     }));
 
     beforeEach(() => {
-        fixture = TestBed.createComponent(IonLoadingComponent);
+        fixture = TestBed.createComponent(IonSkeletonTextComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });

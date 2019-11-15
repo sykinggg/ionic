@@ -19,6 +19,12 @@ import { IonModalComponent } from './ion-modal';
 import { IonBackdropComponent } from './ion-backdrop';
 import { IonNavComponent } from './ion-nav';
 import { IonPopoverComponent } from './ion-popover';
+import { IonLoadingComponent } from './ion-loading';
+import { IonProgressBarComponent } from './ion-progress-bar';
+import { IonSkeletonTextComponent } from './ion-skeleton-text';
+import { IonSpinnerComponent } from './ion-spinner';
+import { IonRangeComponent } from './ion-range';
+import { IonRefresherComponent } from './ion-refresher';
 
 export * from './base-alert';
 export * from './dynamic-component-container';
@@ -46,6 +52,12 @@ export * from './ion-nav';
 export * from './ion-nav-sub';
 export * from './ion-popover';
 export * from './ion-popover-sub';
+export * from './ion-loading';
+export * from './ion-progress-bar';
+export * from './ion-skeleton-text';
+export * from './ion-spinner';
+export * from './ion-range';
+export * from './ion-refresher';
 
 export const dynamicComponents = {
     BaseAlertComponent,
@@ -69,6 +81,12 @@ export const dynamicComponents = {
     IonBackdropComponent,
     IonNavComponent,
     IonPopoverComponent,
+    IonLoadingComponent,
+    IonProgressBarComponent,
+    IonSkeletonTextComponent,
+    IonSpinnerComponent,
+    IonRangeComponent,
+    IonRefresherComponent,
 };
 
 export const choiceComponentInput: any = [
@@ -217,6 +235,48 @@ export const choiceComponentInput: any = [
         type: 'radio',
         label: 'popover',
         value: 'IonPopoverComponent',
+        checked: false
+    },
+    {
+        name: 'IonLoadingComponent',
+        type: 'radio',
+        label: 'loading',
+        value: 'IonLoadingComponent',
+        checked: false
+    },
+    {
+        name: 'IonProgressBarComponent',
+        type: 'radio',
+        label: 'progress bar',
+        value: 'IonProgressBarComponent',
+        checked: false
+    },
+    {
+        name: 'IonSkeletonTextComponent',
+        type: 'radio',
+        label: 'skeleton text',
+        value: 'IonSkeletonTextComponent',
+        checked: false
+    },
+    {
+        name: 'IonSpinnerComponent',
+        type: 'radio',
+        label: 'spinner',
+        value: 'IonSpinnerComponent',
+        checked: false
+    },
+    {
+        name: 'IonRangeComponent',
+        type: 'radio',
+        label: 'range',
+        value: 'IonRangeComponent',
+        checked: true
+    },
+    {
+        name: 'IonRefresherComponent',
+        type: 'radio',
+        label: 'refresher',
+        value: 'IonRefresherComponent',
         checked: true
     },
 ];

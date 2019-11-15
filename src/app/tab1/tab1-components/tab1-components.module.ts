@@ -26,7 +26,13 @@ import {
     IonNavComponent,
     IonNavSubComponent,
     IonPopoverComponent,
-    IonPopoverSubComponent
+    IonPopoverSubComponent,
+    IonLoadingComponent,
+    IonProgressBarComponent,
+    IonSkeletonTextComponent,
+    IonSpinnerComponent,
+    IonRangeComponent,
+    IonRefresherComponent
 } from '../components';
 import { Tab1ShareModule } from '../tab1-share';
 
@@ -60,6 +66,12 @@ import { Tab1ShareModule } from '../tab1-share';
         IonNavSubComponent,
         IonPopoverComponent,
         IonPopoverSubComponent,
+        IonLoadingComponent,
+        IonProgressBarComponent,
+        IonSkeletonTextComponent,
+        IonSpinnerComponent,
+        IonRangeComponent,
+        IonRefresherComponent,
         DynamicDirective,
         DynamicComponentContainerComponent
     ],
@@ -88,6 +100,12 @@ import { Tab1ShareModule } from '../tab1-share';
         IonNavSubComponent,
         IonPopoverComponent,
         IonPopoverSubComponent,
+        IonLoadingComponent,
+        IonProgressBarComponent,
+        IonSkeletonTextComponent,
+        IonSpinnerComponent,
+        IonRangeComponent,
+        IonRefresherComponent,
         DynamicComponentContainerComponent
     ],
     exports: [
@@ -115,6 +133,12 @@ import { Tab1ShareModule } from '../tab1-share';
         IonNavSubComponent,
         IonPopoverComponent,
         IonPopoverSubComponent,
+        IonLoadingComponent,
+        IonProgressBarComponent,
+        IonSkeletonTextComponent,
+        IonSpinnerComponent,
+        IonRangeComponent,
+        IonRefresherComponent,
         DynamicDirective,
         DynamicComponentContainerComponent
     ]

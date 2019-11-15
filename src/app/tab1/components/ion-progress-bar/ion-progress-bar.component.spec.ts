@@ -1,22 +1,22 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IonLoadingComponent } from './ion-loading.component';
+import { IonProgressBarComponent } from './ion-progress-bar.component';
 
-describe('IonLoadingComponent', () => {
-    let component: IonLoadingComponent;
-    let fixture: ComponentFixture<IonLoadingComponent>;
+describe('IonProgressBarComponent', () => {
+    let component: IonProgressBarComponent;
+    let fixture: ComponentFixture<IonProgressBarComponent>;
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [IonLoadingComponent],
+            declarations: [IonProgressBarComponent],
             schemas: [CUSTOM_ELEMENTS_SCHEMA],
         })
             .compileComponents();
     }));
 
     beforeEach(() => {
-        fixture = TestBed.createComponent(IonLoadingComponent);
+        fixture = TestBed.createComponent(IonProgressBarComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });
