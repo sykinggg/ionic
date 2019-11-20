@@ -25,6 +25,17 @@ import { IonSkeletonTextComponent } from './ion-skeleton-text';
 import { IonSpinnerComponent } from './ion-spinner';
 import { IonRangeComponent } from './ion-range';
 import { IonRefresherComponent } from './ion-refresher';
+import { IonReorderComponent } from './ion-reorder';
+import { IonSearchbarComponent } from './ion-searchbar';
+import { IonSegmentComponent } from './ion-segment';
+import { IonSelectComponent } from './ion-select';
+import { IonSlidesComponent } from './ion-slides';
+import { IonTabsComponent } from './ion-tabs';
+import { IonToastComponent } from './ion-toast';
+import { IonToggleComponent } from './ion-toggle';
+import { IonToolbarComponent } from './ion-toolbar';
+import { IonBackButtonComponent } from './ion-back-button';
+import { IonTextComponent } from './ion-text';
 
 export * from './base-alert';
 export * from './dynamic-component-container';
@@ -58,6 +69,18 @@ export * from './ion-skeleton-text';
 export * from './ion-spinner';
 export * from './ion-range';
 export * from './ion-refresher';
+export * from './ion-reorder';
+export * from './ion-searchbar';
+export * from './ion-segment';
+export * from './ion-select';
+export * from './ion-slides';
+export * from './ion-tabs';
+export * from './ion-toast';
+export * from './ion-toggle';
+export * from './ion-toolbar';
+export * from './ion-back-button';
+export * from './ion-back-button-sub';
+export * from './ion-text';
 
 export const dynamicComponents = {
     BaseAlertComponent,
@@ -87,6 +110,17 @@ export const dynamicComponents = {
     IonSpinnerComponent,
     IonRangeComponent,
     IonRefresherComponent,
+    IonReorderComponent,
+    IonSearchbarComponent,
+    IonSegmentComponent,
+    IonSelectComponent,
+    IonSlidesComponent,
+    IonTabsComponent,
+    IonToastComponent,
+    IonToggleComponent,
+    IonToolbarComponent,
+    IonBackButtonComponent,
+    IonTextComponent,
 };
 
 export const choiceComponentInput: any = [
@@ -270,13 +304,90 @@ export const choiceComponentInput: any = [
         type: 'radio',
         label: 'range',
         value: 'IonRangeComponent',
-        checked: true
+        checked: false
     },
     {
         name: 'IonRefresherComponent',
         type: 'radio',
         label: 'refresher',
         value: 'IonRefresherComponent',
+        checked: false
+    },
+    {
+        name: 'IonReorderComponent',
+        type: 'radio',
+        label: 'ion reorder',
+        value: 'IonReorderComponent',
+        checked: false
+    },
+    {
+        name: 'IonSearchbarComponent',
+        type: 'radio',
+        label: 'ion searchbar',
+        value: 'IonSearchbarComponent',
+        checked: false
+    },
+    {
+        name: 'IonSegmentComponent',
+        type: 'radio',
+        label: 'ion segment',
+        value: 'IonSegmentComponent',
+        checked: false
+    },
+    {
+        name: 'IonSelectComponent',
+        type: 'radio',
+        label: 'ion select',
+        value: 'IonSelectComponent',
+        checked: false
+    },
+    {
+        name: 'IonSlidesComponent',
+        type: 'radio',
+        label: 'ion slides',
+        value: 'IonSlidesComponent',
+        checked: false
+    },
+    {
+        name: 'IonTabsComponent',
+        type: 'radio',
+        label: 'ion tabs',
+        value: 'IonTabsComponent',
+        checked: false
+    },
+    {
+        name: 'IonToastComponent',
+        type: 'radio',
+        label: 'ion toast',
+        value: 'IonToastComponent',
+        checked: false
+    },
+    {
+        name: 'IonToggleComponent',
+        type: 'radio',
+        label: 'ion toggle',
+        value: 'IonToggleComponent',
+        checked: false
+    },
+    {
+        name: 'IonToolbarComponent',
+        type: 'radio',
+        label: 'ion toolbar',
+        value: 'IonToolbarComponent',
+        checked: false
+    },
+    {
+        name: 'IonBackButtonComponent',
+        type: 'radio',
+        label: 'ion back button',
+        value: 'IonBackButtonComponent',
+        checked: false
+    },
+    {
+        name: 'IonTextComponent',
+        type: 'radio',
+        label: 'ion text',
+        value: 'IonTextComponent',
         checked: true
     },
 ];

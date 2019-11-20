@@ -1,3 +1,23 @@
-<p>
-    ion-refresher works!
-</p>
+<ion-app>
+    <ion-header translucent>
+        <ion-toolbar>
+            <ion-title>Refresher</ion-title>
+        </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+        <ion-refresher slot="fixed" (ionRefresh)="ionRefresh($event)">
+            <ion-refresher-content></ion-refresher-content>
+        </ion-refresher>
+
+        <ion-list>
+            <ion-item *ngFor="let item of list">
+                <div slot="start" class="{{(item.unread) ? 'unread' : 'read'}}"></div>
+                <ion-label class="ion-text-wrap">
+                    <h2>{{item.chooseRandomName}}</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                </ion-label>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-app>
