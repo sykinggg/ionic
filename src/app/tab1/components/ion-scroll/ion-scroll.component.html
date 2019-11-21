@@ -59,7 +59,7 @@
     </ion-item>
 </ion-list>
 
-<ion-infinite-scroll threshold="0px" (ionInfinite)="bottomLoadData($event)">
+<ion-infinite-scroll threshold="0px" [disabled]="isBottomLoadData" (ionInfinite)="bottomLoadData($event)">
     <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="bottom Loading more data...">
     </ion-infinite-scroll-content>
 </ion-infinite-scroll>

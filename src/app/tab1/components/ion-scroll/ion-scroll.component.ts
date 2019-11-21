@@ -9,7 +9,11 @@ import { IonInfiniteScroll } from '@ionic/angular';
 export class IonScrollComponent implements OnInit {
     @ViewChild(IonInfiniteScroll, { static: false }) infiniteScroll: IonInfiniteScroll;
 
-    constructor() { }
+    public isBottomLoadData: boolean;
+
+    constructor() {
+        this.isBottomLoadData = true;
+    }
 
     public topLoadData(event) {
         setTimeout(() => {
