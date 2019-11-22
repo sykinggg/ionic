@@ -6,4 +6,19 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+    <ion-list>
+        <ion-item>
+            {{status}}
+        </ion-item>
+        <ion-item>
+            {{addEventListenerCallback}}
+        </ion-item>
+        <ion-item>
+            <ion-button (click)="captureImage()">captureImage</ion-button>
+        </ion-item>
+        <ion-item>
+            <span>{{imageSrc}}</span>
+        </ion-item>
+    </ion-list>
+</ion-content>
