@@ -303,6 +303,20 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@ionic-native/battery-status@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/battery-status/download/@ionic-native/battery-status-5.17.1.tgz#8544e7d1edebb3118427d6b3d549cacc822b5c27"
+  integrity sha1-hUTn0e3rsxGEJ9az1UnKzIIrXCc=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/camera@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/camera/download/@ionic-native/camera-5.17.1.tgz#8a7642e433fb4bb350fdfea9ff68a0b29bf4457e"
+  integrity sha1-inZC5DP7S7NQ/f6p/2igspv0RX4=
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/core@^5.0.0":
   version "5.17.0"
   resolved "https://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-5.17.0.tgz#2b5550af86668ab15f7c4adfcffbb6ad8b80de2f"
@@ -1924,6 +1938,10 @@ cordova-plugin-battery-status@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/cordova-plugin-battery-status/download/cordova-plugin-battery-status-2.0.3.tgz#68924b329b644ddcd76b2be7ec4e00b9801effb7"
   integrity sha1-aJJLMptkTdzXayvn7E4AuYAe/7c=
+
+"cordova-plugin-camera@git+https://github.com/apache/cordova-plugin-camera.git":
+  version "4.1.1-dev"
+  resolved "git+https://github.com/apache/cordova-plugin-camera.git#6feaa95559f384468286ab28070030887bac1c5d"
 
 cordova-plugin-device@^2.0.2:
   version "2.0.3"

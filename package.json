@@ -19,13 +19,15 @@
     "@angular/platform-browser": "~8.1.2",
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
+    "@ionic-native/battery-status": "^5.17.1",
+    "@ionic-native/camera": "^5.17.1",
     "@ionic-native/core": "^5.0.0",
     "@ionic-native/splash-screen": "^5.0.0",
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.7.1",
     "cordova-android": "8.1.0",
     "cordova-plugin-battery-status": "^2.0.3",
-    "cordova-plugin-camera": "^4.1.0",
+    "cordova-plugin-camera": "git+https://github.com/apache/cordova-plugin-camera.git",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
@@ -75,9 +77,7 @@
       },
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-battery-status": {},
-      "cordova-plugin-camera": {
-        "ANDROID_SUPPORT_V4_VERSION": "27.+"
-      }
+      "cordova-plugin-camera": {}
     },
     "platforms": [
       "android"
