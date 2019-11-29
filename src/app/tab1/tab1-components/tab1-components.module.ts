@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
     BaseAlertComponent,
-    DynamicDirective,
-    DynamicComponentContainerComponent,
     BadgeComponent,
     RippleEffectComponent,
     IonCardComponent,
@@ -51,7 +49,7 @@ import { Tab1ShareModule } from '../tab1-share';
 @NgModule({
     imports: [
         CommonModule,
-        Tab1ShareModule
+        Tab1ShareModule,
     ],
     declarations: [
         BaseAlertComponent,
@@ -96,8 +94,6 @@ import { Tab1ShareModule } from '../tab1-share';
         IonBackButtonComponent,
         IonBackButtonSubComponent,
         IonTextComponent,
-        DynamicDirective,
-        DynamicComponentContainerComponent
     ],
     entryComponents: [
         BaseAlertComponent,
@@ -142,7 +138,6 @@ import { Tab1ShareModule } from '../tab1-share';
         IonBackButtonComponent,
         IonBackButtonSubComponent,
         IonTextComponent,
-        DynamicComponentContainerComponent
     ],
     exports: [
         BaseAlertComponent,
@@ -187,8 +182,6 @@ import { Tab1ShareModule } from '../tab1-share';
         IonBackButtonComponent,
         IonBackButtonSubComponent,
         IonTextComponent,
-        DynamicDirective,
-        DynamicComponentContainerComponent
     ]
 })
 export class Tab1ComponentsModule { }

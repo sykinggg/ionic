@@ -303,10 +303,59 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@ionic-native/android-permissions@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/android-permissions/download/@ionic-native/android-permissions-5.17.1.tgz#13c1eed007ff7095ea3ed632a3c57fbb4197579b"
+  integrity sha1-E8Hu0Af/cJXqPtYyo8V/u0GXV5s=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/app-rate@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/app-rate/download/@ionic-native/app-rate-5.17.1.tgz#694ee7e9e78238fb570dd06552fccc7bc85fb4a2"
+  integrity sha1-aU7n6eeCOPtXDdBlUvzMe8hftKI=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/app-version@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/app-version/download/@ionic-native/app-version-5.17.1.tgz#a2d790c40d25a6c33b18a8bb42351de3ef8f969d"
+  integrity sha1-oteQxA0lpsM7GKi7QjUd4++Plp0=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/badge@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/badge/download/@ionic-native/badge-5.17.1.tgz#320b9d22208730773e7aac876697f74d7bdec333"
+  integrity sha1-MgudIiCHMHc+eqyHZpf3TXvewzM=
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/battery-status@^5.17.1":
   version "5.17.1"
   resolved "https://registry.npm.taobao.org/@ionic-native/battery-status/download/@ionic-native/battery-status-5.17.1.tgz#8544e7d1edebb3118427d6b3d549cacc822b5c27"
   integrity sha1-hUTn0e3rsxGEJ9az1UnKzIIrXCc=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/calendar@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/calendar/download/@ionic-native/calendar-5.17.1.tgz#59c23b376e73b697a9da7f7a33111bf09838b3f1"
+  integrity sha1-WcI7N25ztpep2n96MxEb8Jg4s/E=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/call-directory@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/call-directory/download/@ionic-native/call-directory-5.17.1.tgz#bb34b404f09467c90ec74bebf0b834d81d2b093a"
+  integrity sha1-uzS0BPCUZ8kOx0vr8Lg02B0rCTo=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/call-log@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/call-log/download/@ionic-native/call-log-5.17.1.tgz#7ec365631d6a3086668fdf3896680156d9dda572"
+  integrity sha1-fsNlYx1qMIZmj984lmgBVtndpXI=
   dependencies:
     "@types/cordova" latest
 
@@ -1115,6 +1164,11 @@ base64-arraybuffer@0.1.5:
   resolved "https://registry.npm.taobao.org/base64-arraybuffer/download/base64-arraybuffer-0.1.5.tgz#73926771923b5a19747ad666aa5cd4bf9c6e9ce8"
   integrity sha1-c5JncZI7Whl0etZmqlzUv5xunOg=
 
+base64-js@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/base64-js/download/base64-js-1.2.0.tgz#a39992d723584811982be5e290bb6a53d86700f1"
+  integrity sha1-o5mS1yNYSBGYK+XikLtqU9hnAPE=
+
 base64-js@^1.0.2, base64-js@^1.2.3:
   version "1.3.1"
   resolved "https://registry.npm.taobao.org/base64-js/download/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
@@ -1157,7 +1211,7 @@ better-assert@~1.0.0:
   dependencies:
     callsite "1.0.0"
 
-big-integer@^1.6.7:
+big-integer@^1.6.44, big-integer@^1.6.7:
   version "1.6.48"
   resolved "https://registry.npm.taobao.org/big-integer/download/big-integer-1.6.48.tgz#8fd88bd1632cba4a1c8c3e3d7159f08bb95b4b9e"
   integrity sha1-j9iL0WMsukocjD49cVnwi7lbS54=
@@ -1226,6 +1280,20 @@ bonjour@^3.5.0:
     dns-txt "^2.0.2"
     multicast-dns "^6.0.1"
     multicast-dns-service-types "^1.1.0"
+
+bplist-creator@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.npm.taobao.org/bplist-creator/download/bplist-creator-0.0.8.tgz#56b2a6e79e9aec3fc33bf831d09347d73794e79c"
+  integrity sha1-VrKm556a7D/DO/gx0JNH1zeU55w=
+  dependencies:
+    stream-buffers "~2.2.0"
+
+bplist-parser@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/bplist-parser/download/bplist-parser-0.2.0.tgz#43a9d183e5bf9d545200ceac3e712f79ebbe8d0e"
+  integrity sha1-Q6nRg+W/nVRSAM6sPnEveeu+jQ4=
+  dependencies:
+    big-integer "^1.6.44"
 
 bplist-parser@^0.1.0:
   version "0.1.1"
@@ -1934,10 +2002,62 @@ cordova-common@^3.2.0:
     underscore "^1.8.3"
     which "^1.3.0"
 
+cordova-plugin-add-swift-support@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-add-swift-support/download/cordova-plugin-add-swift-support-2.0.2.tgz#bfa848356f35edc0898403eb510fe407adb40e9f"
+  integrity sha1-v6hINW817cCJhAPrUQ/kB620Dp8=
+  dependencies:
+    glob "^7.1.3"
+    semver "^6.0.0"
+    xcode "^2.0.0"
+
+cordova-plugin-android-permissions@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-android-permissions/download/cordova-plugin-android-permissions-1.0.2.tgz#e26556ff11a560dffa33a5915d27fe9d44b3c248"
+  integrity sha1-4mVW/xGlYN/6M6WRXSf+nUSzwkg=
+
+cordova-plugin-app-version@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-app-version/download/cordova-plugin-app-version-0.1.9.tgz#9db0607863337a710489302e5f50a904f1449bdb"
+  integrity sha1-nbBgeGMzenEEiTAuX1CpBPFEm9s=
+
+cordova-plugin-apprate@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-apprate/download/cordova-plugin-apprate-1.5.0.tgz#5168a295843fe2806d51cdf25b2b6ded02de0de0"
+  integrity sha1-UWiilYQ/4oBtUc3yWytt7QLeDeA=
+
+cordova-plugin-badge@^0.8.8:
+  version "0.8.8"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-badge/download/cordova-plugin-badge-0.8.8.tgz#0924018699b48f92dd3b33615452737582144c96"
+  integrity sha1-CSQBhpm0j5LdOzNhVFJzdYIUTJY=
+
 cordova-plugin-battery-status@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/cordova-plugin-battery-status/download/cordova-plugin-battery-status-2.0.3.tgz#68924b329b644ddcd76b2be7ec4e00b9801effb7"
   integrity sha1-aJJLMptkTdzXayvn7E4AuYAe/7c=
+
+cordova-plugin-calendar@^5.1.5:
+  version "5.1.5"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-calendar/download/cordova-plugin-calendar-5.1.5.tgz#a3fc334eec01731a3b0e4c05eae9db99aa3c3653"
+  integrity sha1-o/wzTuwBcxo7DkwF6unbmao8NlM=
+
+cordova-plugin-call-directory@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-call-directory/download/cordova-plugin-call-directory-1.6.0.tgz#436854ee8408a1a19c5af37f721b972be9379f8a"
+  integrity sha1-Q2hU7oQIoaGcWvN/chuXK+k3n4o=
+  dependencies:
+    cordova-plugin-add-swift-support "^2.0.2"
+    elementtree "^0.1.7"
+    file-system "^2.2.2"
+    path "^0.12.7"
+    plist "^2.1.0"
+    q "^1.5.1"
+    xcode "git+https://github.com/apache/cordova-node-xcode.git"
+
+cordova-plugin-calllog@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-calllog/download/cordova-plugin-calllog-1.3.2.tgz#9531fcd850a18de9da18ffec4433dbb2ed98ed36"
+  integrity sha1-lTH82FChjenaGP/sRDPbsu2Y7TY=
 
 "cordova-plugin-camera@git+https://github.com/apache/cordova-plugin-camera.git":
   version "4.1.1-dev"
@@ -1948,6 +2068,11 @@ cordova-plugin-device@^2.0.2:
   resolved "https://registry.npm.taobao.org/cordova-plugin-device/download/cordova-plugin-device-2.0.3.tgz#c2b41b7efd0455dd097f89356d85bfdd5dadeb0f"
   integrity sha1-wrQbfv0EVd0Jf4k1bYW/3V2t6w8=
 
+cordova-plugin-dialogs@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-dialogs/download/cordova-plugin-dialogs-2.0.2.tgz#ac3ce8b73bc885ff847078d5b533e7a4ed418a2f"
+  integrity sha1-rDzotzvIhf+EcHjVtTPnpO1Bii8=
+
 cordova-plugin-ionic-keyboard@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/cordova-plugin-ionic-keyboard/download/cordova-plugin-ionic-keyboard-2.2.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcordova-plugin-ionic-keyboard%2Fdownload%2Fcordova-plugin-ionic-keyboard-2.2.0.tgz#53ba9ccd5e765165446a094cfe042a2ddd87d81d"
@@ -1957,6 +2082,11 @@ cordova-plugin-ionic-webview@^4.1.3:
   version "4.1.3"
   resolved "https://registry.npm.taobao.org/cordova-plugin-ionic-webview/download/cordova-plugin-ionic-webview-4.1.3.tgz#7f3963208708951fedd975c0808a5d27382812a7"
   integrity sha1-fzljIIcIlR/t2XXAgIpdJzgoEqc=
+
+cordova-plugin-nativestorage@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-nativestorage/download/cordova-plugin-nativestorage-2.3.2.tgz#d6a1d50632aff2a70227102f68bc605e91aabca2"
+  integrity sha1-1qHVBjKv8qcCJxAvaLxgXpGqvKI=
 
 cordova-plugin-splashscreen@^5.0.2:
   version "5.0.3"
@@ -2409,7 +2539,7 @@ electron-to-chromium@^1.3.164, electron-to-chromium@^1.3.306:
   resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.310.tgz#a6c0c194d93ff54fcdc6dc3843689abb5c4dec0c"
   integrity sha1-psDBlNk/9U/Nxtw4Q2iau1xN7Aw=
 
-elementtree@0.1.7:
+elementtree@0.1.7, elementtree@^0.1.7:
   version "0.1.7"
   resolved "https://registry.npm.taobao.org/elementtree/download/elementtree-0.1.7.tgz#9ac91be6e52fb6e6244c4e54a4ac3ed8ae8e29c0"
   integrity sha1-mskb5uUvtuYkTE5UpKw+2K6OKcA=
@@ -2834,6 +2964,21 @@ file-loader@4.0.0:
   dependencies:
     loader-utils "^1.2.2"
     schema-utils "^1.0.0"
+
+file-match@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/file-match/download/file-match-1.0.2.tgz#c9cad265d2c8adf3a81475b0df475859069faef7"
+  integrity sha1-ycrSZdLIrfOoFHWw30dYWQafrvc=
+  dependencies:
+    utils-extend "^1.0.6"
+
+file-system@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.npm.taobao.org/file-system/download/file-system-2.2.2.tgz#7d65833e3a2347dcd956a813c677153ed3edd987"
+  integrity sha1-fWWDPjojR9zZVqgTxncVPtPt2Yc=
+  dependencies:
+    file-match "^1.0.1"
+    utils-extend "^1.0.4"
 
 fileset@^2.0.3:
   version "2.0.3"
@@ -5271,6 +5416,14 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
+path@^0.12.7:
+  version "0.12.7"
+  resolved "https://registry.npm.taobao.org/path/download/path-0.12.7.tgz#d4dc2a506c4ce2197eb481ebfcd5b36c0140b10f"
+  integrity sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=
+  dependencies:
+    process "^0.11.1"
+    util "^0.10.3"
+
 pbkdf2@^3.0.3:
   version "3.0.17"
   resolved "https://registry.npm.taobao.org/pbkdf2/download/pbkdf2-3.0.17.tgz#976c206530617b14ebb32114239f7b09336e93a6"
@@ -5325,6 +5478,15 @@ pkg-dir@^3.0.0:
   integrity sha1-J0kCDyOe2ZCIGx9xIQ1R62UjvqM=
   dependencies:
     find-up "^3.0.0"
+
+plist@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/plist/download/plist-2.1.0.tgz#57ccdb7a0821df21831217a3cad54e3e146a1025"
+  integrity sha1-V8zbeggh3yGDEhejytVOPhRqECU=
+  dependencies:
+    base64-js "1.2.0"
+    xmlbuilder "8.2.2"
+    xmldom "0.1.x"
 
 plist@^3.0.1:
   version "3.0.1"
@@ -5410,7 +5572,7 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.npm.taobao.org/process-nextick-args/download/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
 
-process@^0.11.10:
+process@^0.11.1, process@^0.11.10:
   version "0.11.10"
   resolved "https://registry.npm.taobao.org/process/download/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
@@ -6196,6 +6358,15 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
+simple-plist@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/simple-plist/download/simple-plist-1.1.0.tgz#8354ab63eb3922a054c78ce96c209c532e907a23"
+  integrity sha1-g1SrY+s5IqBUx4zpbCCcUy6QeiM=
+  dependencies:
+    bplist-creator "0.0.8"
+    bplist-parser "0.2.0"
+    plist "^3.0.1"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/slash/download/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -6536,6 +6707,11 @@ stream-browserify@^2.0.1:
   dependencies:
     inherits "~2.0.1"
     readable-stream "^2.0.2"
+
+stream-buffers@~2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/stream-buffers/download/stream-buffers-2.2.0.tgz#91d5f5130d1cef96dcfa7f726945188741d09ee4"
+  integrity sha1-kdX1Ew0c75bc+n9yaUUYh0HQnuQ=
 
 stream-each@^1.1.0:
   version "1.2.3"
@@ -7154,12 +7330,24 @@ util@0.10.3:
   dependencies:
     inherits "2.0.1"
 
+util@^0.10.3:
+  version "0.10.4"
+  resolved "https://registry.npm.taobao.org/util/download/util-0.10.4.tgz#3aa0125bfe668a4672de58857d3ace27ecb76901"
+  integrity sha1-OqASW/5mikZy3liFfTrOJ+y3aQE=
+  dependencies:
+    inherits "2.0.3"
+
 util@^0.11.0:
   version "0.11.1"
   resolved "https://registry.npm.taobao.org/util/download/util-0.11.1.tgz#3236733720ec64bb27f6e26f421aaa2e1b588d61"
   integrity sha1-MjZzNyDsZLsn9uJvQhqqLhtYjWE=
   dependencies:
     inherits "2.0.3"
+
+utils-extend@^1.0.4, utils-extend@^1.0.6:
+  version "1.0.8"
+  resolved "https://registry.npm.taobao.org/utils-extend/download/utils-extend-1.0.8.tgz#ccfd7b64540f8e90ee21eec57769d0651cab8a5f"
+  integrity sha1-zP17ZFQPjpDuIe7Fd2nQZRyril8=
 
 utils-merge@1.0.1:
   version "1.0.1"
@@ -7471,6 +7659,21 @@ ws@~3.3.1:
     safe-buffer "~5.1.0"
     ultron "~1.1.0"
 
+xcode@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/xcode/download/xcode-2.0.0.tgz#134f1f94c26fbfe8a9aaa9724bfb2772419da1a2"
+  integrity sha1-E08flMJvv+ipqqlyS/snckGdoaI=
+  dependencies:
+    simple-plist "^1.0.0"
+    uuid "^3.3.2"
+
+"xcode@git+https://github.com/apache/cordova-node-xcode.git":
+  version "2.0.1-dev"
+  resolved "git+https://github.com/apache/cordova-node-xcode.git#83075188e984e09ca11ca2484c54494ac9348ed5"
+  dependencies:
+    simple-plist "^1.0.0"
+    uuid "^3.3.2"
+
 xml2js@^0.4.17:
   version "0.4.22"
   resolved "https://registry.npm.taobao.org/xml2js/download/xml2js-0.4.22.tgz#4fa2d846ec803237de86f30aa9b5f70b6600de02"
@@ -7479,6 +7682,11 @@ xml2js@^0.4.17:
     sax ">=0.6.0"
     util.promisify "~1.0.0"
     xmlbuilder "~11.0.0"
+
+xmlbuilder@8.2.2:
+  version "8.2.2"
+  resolved "https://registry.npm.taobao.org/xmlbuilder/download/xmlbuilder-8.2.2.tgz#69248673410b4ba42e1a6136551d2922335aa773"
+  integrity sha1-aSSGc0ELS6QuGmE2VR0pIjNap3M=
 
 xmlbuilder@^9.0.7:
   version "9.0.7"

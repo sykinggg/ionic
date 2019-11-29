@@ -6,15 +6,22 @@ import { FormsModule } from '@angular/forms';
 import { Tab2Page } from './tab2.page';
 // import { Camera } from '@ionic-native/camera/ngx';
 import { BatteryStatus } from '@ionic-native/battery-status/ngx';
+import { Tab2ShareModule } from './tab2-share';
+import { Tab2RouterModule } from './tab2-router';
+import { Tab2ComponentsModule } from './tab2-components';
+import { AppShareModule } from '../components';
 
 @NgModule({
     imports: [
         IonicModule,
         CommonModule,
         FormsModule,
-        RouterModule.forChild([{ path: '', component: Tab2Page }])
+        AppShareModule,
+        Tab2RouterModule,
+        Tab2ShareModule,
+        Tab2ComponentsModule
     ],
-    declarations: [Tab2Page],
+    declarations: [],
     providers: [
         BatteryStatus
     ]

@@ -1,0 +1,24 @@
+<ion-list>
+    <ion-list-header>
+        app-cakendar
+    </ion-list-header>
+    <ion-item>
+        <h3>检查呼叫目录分机是否可用并已启用</h3>
+        <p>{{isAvailable}}</p>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="addIdentification()">添加识别号</ion-button>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="removeIdentification()">删除识别码</ion-button>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="removeAllIdentification()">从呼叫目录中删除所有项目。立即刷新。</ion-button>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="reloadExtension()">重新加载扩展以处理排队的更改</ion-button>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="getLog()">从插件获取日志并调用目录扩展</ion-button>
+    </ion-item>
+</ion-list>

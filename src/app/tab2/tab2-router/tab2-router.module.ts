@@ -1,35 +1,35 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Tab1Page } from '../tab1.page';
+import { Tab2Page } from '../tab2.page';
+import { Tab2ShareModule } from '../tab2-share';
+import { Tab2ComponentsModule } from '../tab2-components';
 import { RouterModule } from '@angular/router';
-import { Tab1ShareModule } from '../tab1-share';
-import { Tab1ComponentsModule } from '../tab1-components';
 import { AppShareModule } from 'src/app/components';
 
 const RouterList = [
     {
         path: '',
-        component: Tab1Page
+        component: Tab2Page
     }
 ];
 
 @NgModule({
     imports: [
         CommonModule,
-        Tab1ShareModule,
-        Tab1ComponentsModule,
+        Tab2ShareModule,
+        Tab2ComponentsModule,
         AppShareModule,
         RouterModule.forChild(RouterList)
     ],
     declarations: [
-        Tab1Page,
+        Tab2Page
     ],
     entryComponents: [
-        Tab1Page,
+        Tab2Page
     ],
     exports: [
         RouterModule,
-        Tab1Page,
+        Tab2Page
     ]
 })
-export class Tab1RouterModule { }
+export class Tab2RouterModule { }

@@ -1,0 +1,16 @@
+<ion-list>
+    <ion-list-header>
+        app-rate
+    </ion-list-header>
+    <ion-item>
+        <ion-input type="number" [(ngModel)]="badgeSetInput"></ion-input>
+        <ion-button (click)="badgeSet()">badgeSet</ion-button>
+    </ion-item>
+    <ion-item>
+        <ion-input type="number" [(ngModel)]="badgeIncreaseInput"></ion-input>
+        <ion-button (click)="badgeIncrease()">badgeIncrease</ion-button>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="badgeClear()">badgeClear</ion-button>
+    </ion-item>
+</ion-list>

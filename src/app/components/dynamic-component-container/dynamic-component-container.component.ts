@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, ViewChild, ComponentFactoryResolver } from '@angular/core';
 import { DynamicDirective } from '../dynamic';
-import { dynamicComponents } from '..';
+import { dynamicComponents } from 'src/app/tab1/components';
 
 export interface IDynamicComponent {
     data: any;
@@ -27,6 +27,7 @@ export class DynamicComponentContainerComponent implements OnInit {
             }
         }
     }
+    @Input() dynamicComponentsArr: any;
     @ViewChild(DynamicDirective, { static: true }) host: DynamicDirective;
 
     constructor(private componentFactoryResolver: ComponentFactoryResolver) { }
@@ -36,10 +37,13 @@ export class DynamicComponentContainerComponent implements OnInit {
     loadComponent(ads) {
 
         console.log(ads);
+        if (!this.dynamicComponentsArr || !this.dynamicComponentsArr.length) {
+            this.dynamicComponentsArr = dynamicComponents;
+        }
         // let trueComponent = new CreateDyamicComponent(dynamicComponents[ads.type], ads.data);
         let component: any;
         if (ads.type && typeof ads.type === 'string') {
-            component = dynamicComponents[ads.type];
+            component = this.dynamicComponentsArr[ads.type];
         } else if (ads.component) {
             component = ads.component;
         }

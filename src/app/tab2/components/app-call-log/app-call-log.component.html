@@ -1,0 +1,23 @@
+<ion-list>
+    <ion-list-header>
+        app-通话记录
+    </ion-list-header>
+    <ion-item>
+        <h3>该函数返回通话记录</h3>
+        <ion-input type="text" [(ngModel)]="callFilter"></ion-input>
+        <p>{{CallLogObject}}</p>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="getCallLog()">该函数返回通话记录</ion-button>
+    </ion-item>
+    <ion-item>
+        <h3>检查权限</h3>
+        <p>{{hasReadPermission}}</p>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="defaultHasReadPermission()">检查权限</ion-button>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="requestReadPermission()">请求权限</ion-button>
+    </ion-item>
+</ion-list>

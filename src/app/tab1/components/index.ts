@@ -38,8 +38,6 @@ import { IonBackButtonComponent } from './ion-back-button';
 import { IonTextComponent } from './ion-text';
 
 export * from './base-alert';
-export * from './dynamic-component-container';
-export * from './dynamic';
 export * from './badge';
 export * from './ripple-effect';
 export * from './ion-card';
@@ -127,14 +125,14 @@ export const choiceComponentInput: any = [
     {
         name: 'BaseAlertComponent',
         type: 'radio',
-        label: 'button && alert',
+        label: 'button && alert ui 组件',
         value: 'BaseAlertComponent',
         checked: false
     },
     {
         name: 'BadgeComponent',
         type: 'radio',
-        label: 'badge',
+        label: '角标识',
         value: 'BadgeComponent',
         checked: false
     },
@@ -148,231 +146,231 @@ export const choiceComponentInput: any = [
     {
         name: 'IonCardComponent',
         type: 'radio',
-        label: 'card',
+        label: '卡片类型容器',
         value: 'IonCardComponent',
         checked: false
     },
     {
         name: 'IonCheckboxComponent',
         type: 'radio',
-        label: 'checkbox',
+        label: '复选框',
         value: 'IonCheckboxComponent',
         checked: false
     },
     {
         name: 'IonChipComponent',
         type: 'radio',
-        label: 'chip',
+        label: '提示型按钮',
         value: 'IonChipComponent',
         checked: false
     },
     {
         name: 'IonContentComponent',
         type: 'radio',
-        label: 'content',
+        label: '回到顶部&&回到底部',
         value: 'IonContentComponent',
         checked: false
     },
     {
         name: 'IonDatetimeComponent',
         type: 'radio',
-        label: 'date time',
+        label: '选择时间组件',
         value: 'IonDatetimeComponent',
         checked: false
     },
     {
         name: 'IonFabComponent',
         type: 'radio',
-        label: 'fab',
+        label: '可视区域按钮集',
         value: 'IonFabComponent',
         checked: false
     },
     {
         name: 'IonBaseFabComponent',
         type: 'radio',
-        label: 'base fab',
+        label: '可视区域按钮集基础样式',
         value: 'IonBaseFabComponent',
         checked: false
     },
     {
         name: 'IonGridComponent',
         type: 'radio',
-        label: 'grid',
+        label: '栅格布局',
         value: 'IonGridComponent',
         checked: false
     },
     {
         name: 'IonScrollComponent',
         type: 'radio',
-        label: 'scroll',
+        label: '上划一定距离触发事件',
         value: 'IonScrollComponent',
         checked: false
     },
     {
         name: 'IonInputComponent',
         type: 'radio',
-        label: 'input',
+        label: 'angular form',
         value: 'IonInputComponent',
         checked: false
     },
     {
         name: 'IonItemComponent',
         type: 'radio',
-        label: 'item',
+        label: '列表项 样式',
         value: 'IonItemComponent',
         checked: false
     },
     {
         name: 'IonListComponent',
         type: 'radio',
-        label: 'list',
+        label: '列表 样式',
         value: 'IonListComponent',
         checked: false
     },
     {
         name: 'IonAvatarComponent',
         type: 'radio',
-        label: 'avatar',
+        label: '用户头像',
         value: 'IonAvatarComponent',
         checked: false
     },
     {
         name: 'IonMenuComponent',
         type: 'radio',
-        label: 'menu',
+        label: '滑动按钮侧边栏',
         value: 'IonMenuComponent',
         checked: false
     },
     {
         name: 'IonModalComponent',
         type: 'radio',
-        label: 'modal',
+        label: '弹出框组件',
         value: 'IonModalComponent',
         checked: false
     },
     {
         name: 'IonBackdropComponent',
         type: 'radio',
-        label: 'backdrop',
+        label: '遮罩',
         value: 'IonBackdropComponent',
         checked: false
     },
     {
         name: 'IonNavComponent',
         type: 'radio',
-        label: 'nav',
+        label: '动态加载组建',
         value: 'IonNavComponent',
         checked: false
     },
     {
         name: 'IonPopoverComponent',
         type: 'radio',
-        label: 'popover',
+        label: '动态弹框加载组件',
         value: 'IonPopoverComponent',
         checked: false
     },
     {
         name: 'IonLoadingComponent',
         type: 'radio',
-        label: 'loading',
+        label: '页面加载动画',
         value: 'IonLoadingComponent',
         checked: false
     },
     {
         name: 'IonProgressBarComponent',
         type: 'radio',
-        label: 'progress bar',
+        label: '加载柱状示意图',
         value: 'IonProgressBarComponent',
         checked: false
     },
     {
         name: 'IonSkeletonTextComponent',
         type: 'radio',
-        label: 'skeleton text',
+        label: '页面预加载动画',
         value: 'IonSkeletonTextComponent',
         checked: false
     },
     {
         name: 'IonSpinnerComponent',
         type: 'radio',
-        label: 'spinner',
+        label: '列表中具体项加载动画',
         value: 'IonSpinnerComponent',
         checked: false
     },
     {
         name: 'IonRangeComponent',
         type: 'radio',
-        label: 'range',
+        label: '拖动数值组件',
         value: 'IonRangeComponent',
         checked: false
     },
     {
         name: 'IonRefresherComponent',
         type: 'radio',
-        label: 'refresher',
+        label: '拉出边界得操作',
         value: 'IonRefresherComponent',
         checked: false
     },
     {
         name: 'IonReorderComponent',
         type: 'radio',
-        label: 'ion reorder',
+        label: '列表项得拖动组件',
         value: 'IonReorderComponent',
         checked: false
     },
     {
         name: 'IonSearchbarComponent',
         type: 'radio',
-        label: 'ion searchbar',
+        label: '搜索组件',
         value: 'IonSearchbarComponent',
         checked: false
     },
     {
         name: 'IonSegmentComponent',
         type: 'radio',
-        label: 'ion segment',
+        label: 'tab选项组件',
         value: 'IonSegmentComponent',
         checked: false
     },
     {
         name: 'IonSelectComponent',
         type: 'radio',
-        label: 'ion select',
+        label: '选择组件',
         value: 'IonSelectComponent',
         checked: false
     },
     {
         name: 'IonSlidesComponent',
         type: 'radio',
-        label: 'ion slides',
+        label: '全屏动画组件',
         value: 'IonSlidesComponent',
         checked: false
     },
     {
         name: 'IonTabsComponent',
         type: 'radio',
-        label: 'ion tabs',
+        label: '下方定位导航组件',
         value: 'IonTabsComponent',
         checked: false
     },
     {
         name: 'IonToastComponent',
         type: 'radio',
-        label: 'ion toast',
+        label: '通知消息弹窗',
         value: 'IonToastComponent',
         checked: false
     },
     {
         name: 'IonToggleComponent',
         type: 'radio',
-        label: 'ion toggle',
+        label: '开关组件',
         value: 'IonToggleComponent',
         checked: false
     },
     {
         name: 'IonToolbarComponent',
         type: 'radio',
-        label: 'ion toolbar',
+        label: 'ui 框架实例组件',
         value: 'IonToolbarComponent',
         checked: false
     },
@@ -386,7 +384,7 @@ export const choiceComponentInput: any = [
     {
         name: 'IonTextComponent',
         type: 'radio',
-        label: 'ion text',
+        label: '文本展示默认ui',
         value: 'IonTextComponent',
         checked: true
     },

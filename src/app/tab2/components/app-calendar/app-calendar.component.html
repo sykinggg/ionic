@@ -1,0 +1,53 @@
+<ion-list>
+    <ion-list-header>
+        app-日历
+    </ion-list-header>
+    <ion-item>
+        <h3>检查是否有权从日历中读取/写入日历</h3>
+        <p>{{hasReadWritePermission}}</p>
+    </ion-item>
+    <ion-item>
+        <h3>检查是否具有阅读权限</h3>
+        <p>{{hasReadPermission}}</p>
+    </ion-item>
+    <ion-item>
+        <h3>检查我们是否具有写权限</h3>
+        <p>{{hasWritePermission}}</p>
+    </ion-item>
+    <ion-item>
+        <h3>返回默认的日历选项</h3>
+        <p>{{getCalendarOptions}}</p>
+    </ion-item>
+    <ion-item>
+        <h3>要求写权限</h3>
+        <ion-button (click)="requestWritePermission()">要求写权限</ion-button>
+    </ion-item>
+    <ion-item>
+        <h3>要求读取权限</h3>
+        <ion-button (click)="requestReadPermission()">要求读取权限</ion-button>
+    </ion-item>
+    <ion-item>
+        <h3>请求读/写权限</h3>
+        <ion-button (click)="requestReadWritePermission()">请求读/写权限</ion-button>
+    </ion-item>
+    <ion-item>
+        <h3>创建一个日历。（仅限iOS）</h3>
+        <ion-button (click)="createCalendar()">创建一个日历。（仅限iOS）</ion-button>
+    </ion-item>
+    <ion-item>
+        <h3>删除日历。（仅限iOS）</h3>
+        <ion-button (click)="deleteCalendar()">删除日历。（仅限iOS）</ion-button>
+    </ion-item>
+    <ion-item>
+        <h3>返回默认的日历选项</h3>
+        <ion-button (click)="defaultGetCalendarOptions()">返回默认的日历选项</ion-button>
+    </ion-item>
+    <ion-item>
+        <h3>在指定的日期打开日历</h3>
+        <ion-button (click)="openCalendar()">在指定的日期打开日历</ion-button>
+    </ion-item>
+    <ion-item>
+        <h3>返回默认的日历选项</h3>
+        <p>{{getCalendarOptions | json}}</p>
+    </ion-item>
+</ion-list>
