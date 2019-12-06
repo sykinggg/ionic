@@ -1,0 +1,18 @@
+<ion-list>
+    <ion-list-header>
+        app-拨打电话
+    </ion-list-header>
+    <ion-item>
+        <ion-button (click)="isCallSupported()">检查通话功能是否可用</ion-button>
+    </ion-item>
+    <ion-item>
+        <ion-button (click)="defaultCallNumber()">默认拨打电话</ion-button>
+    </ion-item>
+    <ion-item *ngFor="let item of callLogObject" (click)="defaultCallNumber(item.number)">
+        <ion-label>
+            <h2>{{item.name || item.number}}</h2>
+            <h3>{{item.number}}</h3>
+            <p>{{item.date | date:'yyyy-MM-dd HH:mm:ss'}}</p>
+        </ion-label>
+    </ion-item>
+</ion-list>

@@ -32,7 +32,33 @@ export class AppCallLogComponent implements OnInit {
     public getCallLog() {
         const self = this;
         this.callLog.getCallLog(this.callFilter).then(
-            (msg) => { alert(msg); self.callLogObject = msg; },
+            (msg) => {
+                self.callLogObject = msg;
+
+                // tslint:disable-next-line:forin
+                for (const i in self.callLogObject[0]) {
+                    alert('name: ' + i + ' desc: ' + self.callLogObject[0][i]);
+                }
+                // tslint:disable-next-line:forin
+                for (const i in self.callLogObject[3]) {
+                    alert('name: ' + i + ' desc: ' + self.callLogObject[0][i]);
+                }
+                // {
+                //     date: '1575255435425',
+                //     number: '15228936381',
+                //     type: 2,
+                //     duration: 0,
+                //     new: 1,
+                //     cachedName: 'XXX',
+                //     cachedNumber: 2,
+                //     phoneAccountId: '898602a8221602bb2165',
+                //     viaNumber: '',
+                //     name: 'XXX',
+                //     contact: '',
+                //     photo: '',
+                //     thumbPhoto: '',
+                // }
+            },
             (err) => { alert(err); }
         );
     }

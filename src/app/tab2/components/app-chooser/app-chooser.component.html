@@ -1,0 +1,14 @@
+<ion-list>
+    <ion-list-header>
+        app-文件选择
+    </ion-list-header>
+    <ion-item>
+        <ion-button (click)="getFile()">选择文件</ion-button>
+    </ion-item>
+    <ion-item>
+        {{fileName}}
+    </ion-item>
+    <ion-item>
+        <img [src]="fileName" [alt]="fileName">
+    </ion-item>
+</ion-list>

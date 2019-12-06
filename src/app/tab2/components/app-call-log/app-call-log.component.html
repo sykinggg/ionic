@@ -5,7 +5,6 @@
     <ion-item>
         <h3>该函数返回通话记录</h3>
         <ion-input type="text" [(ngModel)]="callFilter"></ion-input>
-        <p>{{CallLogObject}}</p>
     </ion-item>
     <ion-item>
         <ion-button (click)="getCallLog()">该函数返回通话记录</ion-button>
@@ -19,5 +18,12 @@
     </ion-item>
     <ion-item>
         <ion-button (click)="requestReadPermission()">请求权限</ion-button>
+    </ion-item>
+    <ion-item *ngFor="let item of callLogObject">
+        <ion-label>
+            <h2>{{item.name || item.number}}</h2>
+            <h3>{{item.number}}</h3>
+            <p>{{item.date | date:'yyyy-MM-dd HH:mm:ss'}}</p>
+        </ion-label>
     </ion-item>
 </ion-list>

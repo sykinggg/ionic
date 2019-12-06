@@ -1,0 +1,13 @@
+<ion-list>
+    <ion-list-header>
+        app-卡扫描
+        ionic cordova plugin add card.io.cordova.mobilesdk
+        安装的慢的一批
+    </ion-list-header>
+    <ion-item>
+        <ion-button (click)="canScan()">调用扫描</ion-button>
+    </ion-item>
+    <ion-item>
+        {{base64Image}}
+    </ion-item>
+</ion-list>

@@ -359,6 +359,13 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/call-number@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/call-number/download/@ionic-native/call-number-5.17.1.tgz#a3094a9cd1465ddc1f476c27b16bf48fe3319df1"
+  integrity sha1-owlKnNFGXdwfR2wnsWv0j+MxnfE=
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/camera@^5.17.1":
   version "5.17.1"
   resolved "https://registry.npm.taobao.org/@ionic-native/camera/download/@ionic-native/camera-5.17.1.tgz#8a7642e433fb4bb350fdfea9ff68a0b29bf4457e"
@@ -366,10 +373,59 @@
   dependencies:
     "@types/cordova" latest
 
+"@ionic-native/card-io@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/card-io/download/@ionic-native/card-io-5.17.1.tgz#d56f97dddd1c7638217cf603553ad9f59fd17e59"
+  integrity sha1-1W+X3d0cdjghfPYDVTrZ9Z/Rflk=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/chooser@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/chooser/download/@ionic-native/chooser-5.17.1.tgz#4b892b79d22aeeba8c6f3cab38a4551455c85c8b"
+  integrity sha1-S4kredIq7rqMbzyrOKRVFFXIXIs=
+  dependencies:
+    "@types/cordova" latest
+
 "@ionic-native/core@^5.0.0":
   version "5.17.0"
   resolved "https://registry.npm.taobao.org/@ionic-native/core/download/@ionic-native/core-5.17.0.tgz#2b5550af86668ab15f7c4adfcffbb6ad8b80de2f"
   integrity sha1-K1VQr4ZmirFffErfz/u2rYuA3i8=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/file-chooser@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/file-chooser/download/@ionic-native/file-chooser-5.17.1.tgz#3268bdb0c2530b48001135a498ce3092ba5d5196"
+  integrity sha1-Mmi9sMJTC0gAETWkmM4wkrpdUZY=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/fingerprint-aio@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/fingerprint-aio/download/@ionic-native/fingerprint-aio-5.17.1.tgz#e0bb124f93d41460723252c90a3372a91008ce71"
+  integrity sha1-4LsST5PUFGByMlLJCjNyqRAIznE=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/firebase-analytics@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/firebase-analytics/download/@ionic-native/firebase-analytics-5.17.1.tgz#3f35eca1f5db4e60641120b3b1aed5ca89d7cfe2"
+  integrity sha1-PzXsofXbTmBkESCzsa7VyonXz+I=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/geolocation@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/geolocation/download/@ionic-native/geolocation-5.17.1.tgz#665bfeeca05c32f1739ac654e62520328ad7574a"
+  integrity sha1-Zlv+7KBcMvFzmsZU5iUgMorXV0o=
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/http@^5.17.1":
+  version "5.17.1"
+  resolved "https://registry.npm.taobao.org/@ionic-native/http/download/@ionic-native/http-5.17.1.tgz#b85394f1a5086f79a365fd4c08863dc7d5888309"
+  integrity sha1-uFOU8aUIb3mjZf1MCIY9x9WIgwk=
   dependencies:
     "@types/cordova" latest
 
@@ -2011,6 +2067,11 @@ cordova-plugin-add-swift-support@^2.0.2:
     semver "^6.0.0"
     xcode "^2.0.0"
 
+cordova-plugin-advanced-http@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-advanced-http/download/cordova-plugin-advanced-http-2.3.0.tgz#011f7e2aa7cc7cd703ad55720d727913cc1b1ead"
+  integrity sha1-AR9+KqfMfNcDrVVyDXJ5E8wbHq0=
+
 cordova-plugin-android-permissions@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/cordova-plugin-android-permissions/download/cordova-plugin-android-permissions-1.0.2.tgz#e26556ff11a560dffa33a5915d27fe9d44b3c248"
@@ -2054,6 +2115,11 @@ cordova-plugin-call-directory@^1.6.0:
     q "^1.5.1"
     xcode "git+https://github.com/apache/cordova-node-xcode.git"
 
+cordova-plugin-call-number@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-call-number/download/cordova-plugin-call-number-1.0.1.tgz#dd9643bfa2b334a6c68b1e64aa9629e6227c59f1"
+  integrity sha1-3ZZDv6KzNKbGix5kqpYp5iJ8WfE=
+
 cordova-plugin-calllog@^1.3.2:
   version "1.3.2"
   resolved "https://registry.npm.taobao.org/cordova-plugin-calllog/download/cordova-plugin-calllog-1.3.2.tgz#9531fcd850a18de9da18ffec4433dbb2ed98ed36"
@@ -2062,6 +2128,11 @@ cordova-plugin-calllog@^1.3.2:
 "cordova-plugin-camera@git+https://github.com/apache/cordova-plugin-camera.git":
   version "4.1.1-dev"
   resolved "git+https://github.com/apache/cordova-plugin-camera.git#6feaa95559f384468286ab28070030887bac1c5d"
+
+cordova-plugin-chooser@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-chooser/download/cordova-plugin-chooser-1.2.5.tgz#869c758857f660cc124193c261a0f130ba23e96b"
+  integrity sha1-hpx1iFf2YMwSQZPCYaDxMLoj6Ws=
 
 cordova-plugin-device@^2.0.2:
   version "2.0.3"
@@ -2072,6 +2143,28 @@ cordova-plugin-dialogs@^2.0.2:
   version "2.0.2"
   resolved "https://registry.npm.taobao.org/cordova-plugin-dialogs/download/cordova-plugin-dialogs-2.0.2.tgz#ac3ce8b73bc885ff847078d5b533e7a4ed418a2f"
   integrity sha1-rDzotzvIhf+EcHjVtTPnpO1Bii8=
+
+cordova-plugin-file@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-file/download/cordova-plugin-file-6.0.2.tgz#f3911479f8357e9aacb5576674f8d95b31a1fb20"
+  integrity sha1-85EUefg1fpqstVdmdPjZWzGh+yA=
+
+cordova-plugin-filechooser@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-filechooser/download/cordova-plugin-filechooser-1.2.0.tgz#3a3a3d9c5bef733076f1f6b59e465f60a0d96577"
+  integrity sha1-Ojo9nFvvczB28fa1nkZfYKDZZXc=
+
+cordova-plugin-fingerprint-aio@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-fingerprint-aio/download/cordova-plugin-fingerprint-aio-3.0.0.tgz#916cbe8adde8783d2391185e1a8fa045461a7b39"
+  integrity sha1-kWy+it3oeD0jkRheGo+gRUYaezk=
+  dependencies:
+    cordova-plugin-add-swift-support "^2.0.2"
+
+cordova-plugin-geolocation@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npm.taobao.org/cordova-plugin-geolocation/download/cordova-plugin-geolocation-4.0.2.tgz#4668a01ae8a49e27c5515f8b81880983e96d7eb3"
+  integrity sha1-RmigGuiknifFUV+LgYgJg+ltfrM=
 
 cordova-plugin-ionic-keyboard@^2.2.0:
   version "2.2.0"

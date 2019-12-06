@@ -27,12 +27,21 @@
     "@ionic-native/calendar": "^5.17.1",
     "@ionic-native/call-directory": "^5.17.1",
     "@ionic-native/call-log": "^5.17.1",
+    "@ionic-native/call-number": "^5.17.1",
     "@ionic-native/camera": "^5.17.1",
+    "@ionic-native/card-io": "^5.17.1",
+    "@ionic-native/chooser": "^5.17.1",
     "@ionic-native/core": "^5.0.0",
+    "@ionic-native/file-chooser": "^5.17.1",
+    "@ionic-native/fingerprint-aio": "^5.17.1",
+    "@ionic-native/firebase-analytics": "^5.17.1",
+    "@ionic-native/geolocation": "^5.17.1",
+    "@ionic-native/http": "^5.17.1",
     "@ionic-native/splash-screen": "^5.0.0",
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.7.1",
     "cordova-android": "8.1.0",
+    "cordova-plugin-advanced-http": "^2.3.0",
     "cordova-plugin-android-permissions": "^1.0.2",
     "cordova-plugin-app-version": "^0.1.9",
     "cordova-plugin-apprate": "^1.5.0",
@@ -40,9 +49,15 @@
     "cordova-plugin-battery-status": "^2.0.3",
     "cordova-plugin-calendar": "^5.1.5",
     "cordova-plugin-call-directory": "^1.6.0",
+    "cordova-plugin-call-number": "^1.0.1",
     "cordova-plugin-calllog": "^1.3.2",
     "cordova-plugin-camera": "git+https://github.com/apache/cordova-plugin-camera.git",
+    "cordova-plugin-chooser": "^1.2.5",
     "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-filechooser": "^1.2.0",
+    "cordova-plugin-fingerprint-aio": "^3.0.0",
+    "cordova-plugin-geolocation": "^4.0.2",
     "cordova-plugin-nativestorage": "^2.3.2",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.1",
@@ -103,7 +118,17 @@
         "EXT_NAME": "Cordova-Directory",
         "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "NO"
       },
-      "cordova-plugin-calllog": {}
+      "cordova-plugin-calllog": {},
+      "cordova-plugin-call-number": {},
+      "cordova-plugin-chooser": {},
+      "cordova-plugin-filechooser": {},
+      "cordova-plugin-fingerprint-aio": {},
+      "cordova-plugin-geolocation": {
+        "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
+      },
+      "cordova-plugin-advanced-http": {
+        "OKHTTP_VERSION": "3.10.0"
+      }
     },
     "platforms": [
       "android"
