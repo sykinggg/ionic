@@ -21,8 +21,8 @@ export class AppGeolocationComponent implements OnInit {
         private http: HTTP
     ) {
         this.address = {
-            province: '',
-            city: ''
+            province: 'a',
+            city: 'b'
         };
     }
 
@@ -64,14 +64,14 @@ export class AppGeolocationComponent implements OnInit {
 
         // tslint:disable-next-line:max-line-length
         this.http.get(`https://restapi.amap.com/v3/geocode/regeo?key=51e99a6da79f0f561514e8b50c3d6f7a&location=${longitude},${latitude}`, {}, {}).then((resp: any) => {
-            const datas = resp.data;
+            const datas = JSON.parse(resp.data);
             alert('data: ' + JSON.stringify(datas));
             // alert(JSON.stringify(data));
             alert('data.regeocode: ' + JSON.stringify(datas.regeocode));
             // alert(JSON.stringify(data.regeocode));
             alert('data.regeocode.addressComponent: ' + JSON.stringify(datas.regeocode.addressComponent));
             // alert(JSON.stringify(data.regeocode.addressComponent));
-            this.addressObj = datas;
+            // this.addressObj = datas;
             if (datas && datas.regeocode && datas.regeocode.addressComponent) {
                 self.address.province = datas.regeocode.addressComponent.province.replace(/省|市/g, '');
                 if (datas.regeocode.addressComponent.city && datas.regeocode.addressComponent.city.length === 0) {
@@ -80,7 +80,7 @@ export class AppGeolocationComponent implements OnInit {
                     self.address.city = '  ' + datas.regeocode.addressComponent.city.replace(/省|市/g, '');
                 }
             }
-            alert(self.address);
+            alert(JSON.stringify(self.address));
         });
     }
 
