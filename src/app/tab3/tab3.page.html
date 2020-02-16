@@ -6,4 +6,10 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+    <ion-button (click)="tab3Page()">{{disabled ? '测速中': '测速'}}</ion-button>
+    <div id="download">下行: {{speedObj.download}}</div>
+    <div id="upload">上行: {{speedObj.upload}}</div>
+    <div id="ping">ping: {{speedObj.ping}}</div>
+    <!-- <div id="ip"></div> -->
+</ion-content>
